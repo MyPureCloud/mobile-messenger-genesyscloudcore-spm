@@ -16,8 +16,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "GenesysCloudCore",
-            url: "https://genesysdx.jfrog.io/artifactory/genesys-cloud-ios.prod/GenesysCloudCore/GenesysCloudCore-2.1.0.zip",
-            checksum: "dbfa3ae5ad199393262163028de2a8a078e1f27a068bbb2271325b2587f04bed"
+            url: "https://genesysdx.jfrog.io/artifactory/genesys-cloud-ios.prod/GenesysCloudCore/GenesysCloudCore-2.2.0.zip",
+            checksum: "13c2c87e607dff34db77496ae850246ff164662f38d97bdc8b82650f81424c83"
         ),
         .testTarget(name: "PackageTests", dependencies: [
             "GenesysCloudCore"
