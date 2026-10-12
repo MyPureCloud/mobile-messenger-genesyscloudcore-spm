@@ -16,8 +16,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "GenesysCloudCore",
-            url: "https://github.com/MyPureCloud/mobile-messenger-ios-sdk/releases/download/v2.5.0/GenesysCloudCore.zip",
-            checksum: "1df72638e4d890e5182bc58b93eae9f71a6e920f09728c2599aabe7b7e2c8594"
+            url: "https://github.com/MyPureCloud/mobile-messenger-ios-sdk/releases/download/v2.6.0/GenesysCloudCore.zip",
+            checksum: "7af3720b7263f7f5dba0aeeb6693d8039d9f6874e25cf2234cd40a06a8be42ca"
         ),
         .testTarget(name: "PackageTests", dependencies: [
             "GenesysCloudCore"
